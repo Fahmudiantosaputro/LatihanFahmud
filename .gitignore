@@ -1,0 +1,27 @@
+# Dependencies
+node_modules/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Build output
+dist/
+build/
+
+# Logs
+*.log
+npm-debug.log*
+
+# Docker — jangan di-push ke repository
+docker-compose.yml
+docker-compose.*.yml
+.docker/
+
+# Upload files (data sensitif)
+backend/uploads/
+
+# OS
+.DS_Store
+Thumbs.db
